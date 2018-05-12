@@ -1,0 +1,231 @@
+# depslib dependency file v1.0
+1523109484 source:c:\users\kata\documents\egyetem\bevprog2\hf6\dinamictext.cpp
+	"DinamicText.h"
+	"graphics.hpp"
+
+1523045368 source:c:\users\kata\documents\egyetem\bevprog2\hf6\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1521397116 c:\users\kata\documents\egyetem\bevprog2\hf6\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1488260528 c:\users\kata\documents\egyetem\bevprog2\hf6\include\graphics.hpp
+	<string>
+
+1521398035 c:\users\kata\documents\egyetem\bevprog2\hf6\widgets.hpp
+	"graphics.hpp"
+
+1521396868 source:c:\users\kata\documents\egyetem\bevprog2\hf6\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1523109509 source:c:\users\kata\documents\egyetem\bevprog2\hf6\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"DinamicText.h"
+	<vector>
+
+1523088550 c:\users\kata\documents\egyetem\bevprog2\hf6\dinamictext.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523706415 source:c:\users\kata\documents\egyetem\bevprog2\beadando2\dinamictext.cpp
+	"DinamicText.h"
+	"graphics.hpp"
+
+1523088550 c:\users\kata\documents\egyetem\bevprog2\beadando2\dinamictext.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1488260528 c:\users\kata\documents\egyetem\bevprog2\beadando2\include\graphics.hpp
+	<string>
+
+1523697792 c:\users\kata\documents\egyetem\bevprog2\beadando2\widgets.hpp
+	"graphics.hpp"
+
+1523810785 source:c:\users\kata\documents\egyetem\bevprog2\beadando2\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"DinamicText.h"
+	"roll.h"
+	"counter.h"
+	<vector>
+
+1523697789 source:c:\users\kata\documents\egyetem\bevprog2\beadando2\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1523809972 source:c:\users\kata\documents\egyetem\bevprog2\beadando2\counter.cpp
+	"graphics.hpp"
+	"counter.h"
+	<sstream>
+
+1523796036 c:\users\kata\documents\egyetem\bevprog2\beadando2\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523809653 source:c:\users\kata\documents\egyetem\bevprog2\beadando2\roll.cpp
+	"graphics.hpp"
+	"roll.h"
+	<vector>
+
+1523807112 c:\users\kata\documents\egyetem\bevprog2\beadando2\roll.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1523809972 source:c:\users\kata\desktop\egyetem\bevprog2\beadando2\counter.cpp
+	"graphics.hpp"
+	"counter.h"
+	<sstream>
+
+1488260528 c:\users\kata\desktop\egyetem\bevprog2\beadando2\include\graphics.hpp
+	<string>
+
+1523796036 c:\users\kata\desktop\egyetem\bevprog2\beadando2\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523697792 c:\users\kata\desktop\egyetem\bevprog2\beadando2\widgets.hpp
+	"graphics.hpp"
+
+1523706415 source:c:\users\kata\desktop\egyetem\bevprog2\beadando2\dinamictext.cpp
+	"DinamicText.h"
+	"graphics.hpp"
+
+1523088550 c:\users\kata\desktop\egyetem\bevprog2\beadando2\dinamictext.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523810785 source:c:\users\kata\desktop\egyetem\bevprog2\beadando2\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"DinamicText.h"
+	"roll.h"
+	"counter.h"
+	<vector>
+
+1523807112 c:\users\kata\desktop\egyetem\bevprog2\beadando2\roll.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1523809653 source:c:\users\kata\desktop\egyetem\bevprog2\beadando2\roll.cpp
+	"graphics.hpp"
+	"roll.h"
+	<vector>
+
+1523697789 source:c:\users\kata\desktop\egyetem\bevprog2\beadando2\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1523809972 source:c:\users\kata\desktop\egyetem\bevprog2\8.óra\counter.cpp
+	"graphics.hpp"
+	"counter.h"
+	<sstream>
+
+1488260528 c:\users\kata\desktop\egyetem\bevprog2\8.óra\include\graphics.hpp
+	<string>
+
+1523796036 c:\users\kata\desktop\egyetem\bevprog2\8.óra\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523697792 c:\users\kata\desktop\egyetem\bevprog2\8.óra\widgets.hpp
+	"graphics.hpp"
+
+1523697789 source:c:\users\kata\desktop\egyetem\bevprog2\8.óra\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1523879347 source:c:\users\kata\desktop\egyetem\bevprog2\8.óra\dinamictext.cpp
+	"DinamicText.h"
+	"graphics.hpp"
+
+1523878516 c:\users\kata\desktop\egyetem\bevprog2\8.óra\dinamictext.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523879517 source:c:\users\kata\desktop\egyetem\bevprog2\8.óra\roll.cpp
+	"graphics.hpp"
+	"roll.h"
+	<vector>
+
+1523879433 c:\users\kata\desktop\egyetem\bevprog2\8.óra\roll.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1523885068 source:c:\users\kata\desktop\egyetem\bevprog2\8.óra\gomb.cpp
+	"gomb.h"
+	"graphics.hpp"
+
+1523884657 c:\users\kata\desktop\egyetem\bevprog2\8.óra\gomb.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523884576 source:c:\users\kata\desktop\egyetem\bevprog2\8.óra\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"DinamicText.h"
+	"roll.h"
+	"gomb.h"
+	"counter.h"
+	<vector>
+
+1523809972 source:c:\users\kata\documents\egyetem\bevprog2\8.óra\counter.cpp
+	"graphics.hpp"
+	"counter.h"
+	<sstream>
+
+1488260528 c:\users\kata\documents\egyetem\bevprog2\8.óra\include\graphics.hpp
+	<string>
+
+1523796036 c:\users\kata\documents\egyetem\bevprog2\8.óra\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523697792 c:\users\kata\documents\egyetem\bevprog2\8.óra\widgets.hpp
+	"graphics.hpp"
+
+1523879347 source:c:\users\kata\documents\egyetem\bevprog2\8.óra\dinamictext.cpp
+	"DinamicText.h"
+	"graphics.hpp"
+
+1523878516 c:\users\kata\documents\egyetem\bevprog2\8.óra\dinamictext.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523894166 source:c:\users\kata\documents\egyetem\bevprog2\8.óra\gomb.cpp
+	"gomb.h"
+	"graphics.hpp"
+
+1523884657 c:\users\kata\documents\egyetem\bevprog2\8.óra\gomb.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523879517 source:c:\users\kata\documents\egyetem\bevprog2\8.óra\roll.cpp
+	"graphics.hpp"
+	"roll.h"
+	<vector>
+
+1523879433 c:\users\kata\documents\egyetem\bevprog2\8.óra\roll.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1523697789 source:c:\users\kata\documents\egyetem\bevprog2\8.óra\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1523893818 source:c:\users\kata\documents\egyetem\bevprog2\8.óra\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"DinamicText.h"
+	"roll.h"
+	"gomb.h"
+	"counter.h"
+	<vector>
+
