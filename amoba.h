@@ -1,0 +1,6 @@
+#ifndef AMOBA_H_INCLUDED
+#define AMOBA_H_INCLUDED
+
+
+
+#endif // AMOBA_H_INCLUDED

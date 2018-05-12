@@ -27,9 +27,6 @@ void Window::event_loop()
         {
             widgets[focus]->handle(ev);
         }
-        if(d1->le_van_e_nyomva())
-            c1->settext(b1->gettext());
-        d1->katt();
         for (Widget * w : widgets)
         {
             w->draw();
