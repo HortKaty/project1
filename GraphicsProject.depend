@@ -229,3 +229,57 @@
 	"counter.h"
 	<vector>
 
+1523809972 source:c:\users\kata\documents\github\project1\counter.cpp
+	"graphics.hpp"
+	"counter.h"
+	<sstream>
+
+1488260528 c:\users\kata\documents\github\project1\include\graphics.hpp
+	<string>
+
+1523796036 c:\users\kata\documents\github\project1\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523697792 c:\users\kata\documents\github\project1\widgets.hpp
+	"graphics.hpp"
+
+1523879347 source:c:\users\kata\documents\github\project1\dinamictext.cpp
+	"DinamicText.h"
+	"graphics.hpp"
+
+1523878516 c:\users\kata\documents\github\project1\dinamictext.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523894166 source:c:\users\kata\documents\github\project1\gomb.cpp
+	"gomb.h"
+	"graphics.hpp"
+
+1523884657 c:\users\kata\documents\github\project1\gomb.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1523893818 source:c:\users\kata\documents\github\project1\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"DinamicText.h"
+	"roll.h"
+	"gomb.h"
+	"counter.h"
+	<vector>
+
+1523879433 c:\users\kata\documents\github\project1\roll.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1523879517 source:c:\users\kata\documents\github\project1\roll.cpp
+	"graphics.hpp"
+	"roll.h"
+	<vector>
+
+1523697789 source:c:\users\kata\documents\github\project1\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
