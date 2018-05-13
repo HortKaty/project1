@@ -10,7 +10,7 @@ protected:
     std::string szoveg;
 public:
     DinamicTextBox(int x, int y, int sx, int sy, std::string szov);
-    virtual void draw() ;
+    virtual void draw();
     virtual void handle(genv::event ev);
     virtual std::string gettext();
 };

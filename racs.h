@@ -9,13 +9,16 @@ class racs : public Widget
 {
 protected:
     Amoba _parent;
-    string ki_van;
+    std::string ki_van;
+    bool p1;
+    bool p2;
+    bool n;
 
 public:
-    racs(int x, int y, int sx, int sy, Amoba* parent);
+    racs(int x, int y, int sx, int sy, int kx, int ky, string ki, Amoba* parent);
     void handle(genv::event ev);
     void drow();
-    string gettext();
+    std::string gettext();
 
 };
 

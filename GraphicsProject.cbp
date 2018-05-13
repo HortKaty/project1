@@ -42,15 +42,17 @@
 		</Linker>
 		<Unit filename="DinamicText.cpp" />
 		<Unit filename="DinamicText.h" />
-		<Unit filename="counter.cpp" />
-		<Unit filename="counter.h" />
-		<Unit filename="gomb.cpp" />
-		<Unit filename="gomb.h" />
+		<Unit filename="amoba.cpp" />
+		<Unit filename="amoba.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="roll.cpp" />
-		<Unit filename="roll.h" />
+		<Unit filename="racs.cpp" />
+		<Unit filename="racs.h" />
+		<Unit filename="statictext.cpp" />
+		<Unit filename="statictext.h" />
 		<Unit filename="widgets.cpp" />
 		<Unit filename="widgets.hpp" />
+		<Unit filename="window.cpp" />
+		<Unit filename="window.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
