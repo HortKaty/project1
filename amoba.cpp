@@ -4,7 +4,7 @@
 #include <iostream>
 
 using namespace genv;
-//class racs;
+
 Amoba::Amoba()
 {
     gout.open(700,700);
@@ -25,7 +25,6 @@ Amoba::Amoba()
             racsok.push_back(uj);
             widgets.push_back(uj);
         }
-  //  starts=false;
 }
 void Amoba::uj_lepes(int sorszam)
 {

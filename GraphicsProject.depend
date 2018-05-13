@@ -273,7 +273,7 @@
 	"roll.h"
 	<vector>
 
-1523697789 source:c:\users\kata\documents\github\project1\widgets.cpp
+1526224297 source:c:\users\kata\documents\github\project1\widgets.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 
@@ -288,7 +288,7 @@
 	"widgets.hpp"
 	"amoba.h"
 
-1526224667 c:\users\kata\documents\github\project1\amoba.h
+1526228462 c:\users\kata\documents\github\project1\amoba.h
 	"graphics.hpp"
 	"widgets.hpp"
 	"statictext.h"
@@ -306,7 +306,7 @@
 	<vector>
 	"widgets.hpp"
 
-1526216514 source:c:\users\kata\documents\github\project1\racs.cpp
+1526224665 source:c:\users\kata\documents\github\project1\racs.cpp
 	"racs.h"
 	"amoba.h"
 	"graphics.hpp"
@@ -315,6 +315,6 @@
 	"statictext.h"
 	"graphics.hpp"
 
-1526223566 source:c:\users\kata\documents\github\project1\window.cpp
+1526224581 source:c:\users\kata\documents\github\project1\window.cpp
 	"window.h"
 
