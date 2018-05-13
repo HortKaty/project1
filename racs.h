@@ -13,9 +13,13 @@ protected:
     bool p1;
     bool p2;
     bool n;
+    std::string _ki;
+    bool hasznalt;
+    int kx;
+    int ky;
 
 public:
-    racs(int x, int y, int sx, int sy, int kx, int ky, string ki, Amoba* parent);
+    racs(int x, int y, int sx, int sy, int kx, int ky, std::string ki, Amoba* parent);
     void handle(genv::event ev);
     void drow();
     std::string gettext();

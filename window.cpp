@@ -34,3 +34,4 @@ void Window::event_loop()
         gout << refresh;
     };
 }
+

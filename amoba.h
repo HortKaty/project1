@@ -5,6 +5,7 @@
 #include "statictext.h"
 #include "racs.h"
 #include <vector>
+#include "window.h"
 
 using namespace genv;
 
@@ -21,7 +22,7 @@ protected:
 
 public:
     Amoba();
-    bool start(genv::event ev)=0;
+    bool start(genv::event ev);
     void uj_lepes();
     std::string getkovi();
     StaticTextBox *k;

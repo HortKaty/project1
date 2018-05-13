@@ -17,7 +17,7 @@ Amoba::Amoba()
     for(unsigned int i=0; i<30; i++)
         for(unsigned int j=0; j<30; j++)
         {
-            racs *uj= new racs(50+j*10, 50+i*10, 10, 10, j, i, this);
+            racs *uj= new racs(50+j*10, 50+i*10, 10, 10, j, i, "", this);
             racsok.push_back(uj);
             widgets.push_back(uj);
         }
