@@ -16,7 +16,7 @@ class Amoba: public Window
 protected:
     int lepesszam;
     vector<racs*>racsok;
-    bool starts;
+   // bool starts;
     bool van_nyertes;
     std::string ki_jon;
     std::string nyertes;
