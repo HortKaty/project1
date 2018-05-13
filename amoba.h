@@ -16,18 +16,20 @@ class Amoba: public Window
 protected:
     int lepesszam;
     vector<racs*>racsok;
-    bool start;
+    bool starts;
     bool van_nyertes;
     std::string ki_jon;
+    std::string nyertes;
+    StaticTextBox *k;
+    StaticTextBox *p1;
+    StaticTextBox *p2;
 
 public:
     Amoba();
     bool start(genv::event ev);
-    void uj_lepes();
+    void uj_lepes(int sorszam);
     std::string getkovi();
-    StaticTextBox *k;
-    StaticTextBox *p1;
-    StaticTextBox *p2;
+
 };
 
 

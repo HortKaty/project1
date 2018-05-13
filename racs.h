@@ -8,22 +8,21 @@ class Amoba;
 class racs : public Widget
 {
 protected:
-    Amoba _parent;
+    Amoba* _parent;
     std::string ki_van;
     bool p1;
     bool p2;
     bool n;
     std::string _ki;
     bool hasznalt;
-    int kx;
-    int ky;
+    int _sr;
 
 public:
-    racs(int x, int y, int sx, int sy, int kx, int ky, std::string ki, Amoba* parent);
+    racs(int x, int y, int sx, int sy, int sr, Amoba* parent);
     void handle(genv::event ev);
-    void drow();
+    void draw();
     std::string gettext();
-
+    std::string getKi();
 };
 
 #endif // RACS_H_INCLUDED

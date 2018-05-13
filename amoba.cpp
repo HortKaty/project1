@@ -1,34 +1,118 @@
 #include "graphics.hpp"
 #include "racs.h"
 #include "amoba.h"
+#include <iostream>
 
 using namespace genv;
-
+//class racs;
 Amoba::Amoba()
 {
     gout.open(700,700);
-    k= new StaticTextBox(50,50,100,40, "Player1 jon");
-    p1= new StaticTextBox(50,300,100,40, "Player1:");
-    p2= new StaticTextBox(50,450,100,40, "Player2:");
+    ki_jon="Player1 jon";
+    nyertes="";
+    k= new StaticTextBox(50,50,150,40, ki_jon);
+    p1= new StaticTextBox(280,50,190,40, "");
+
     widgets.push_back(k);
     widgets.push_back(p1);
-    widgets.push_back(p2);
+
     lepesszam=0;
+
     for(unsigned int i=0; i<30; i++)
         for(unsigned int j=0; j<30; j++)
         {
-            racs *uj= new racs(50+j*10, 50+i*10, 10, 10, j, i, "", this);
+            racs *uj= new racs(100+j*15, 100+i*15, 15, 15, 30*i+j,  this);
             racsok.push_back(uj);
             widgets.push_back(uj);
         }
-    start=false;
+    starts=false;
 }
-void Amoba::uj_lepes()
+void Amoba::uj_lepes(int sorszam)
 {
+    if(racsok[sorszam]->getKi()=="1")
+    {
+        int i=30;
+        int szamlalo=0;
+
+            while(racsok[sorszam+i]->getKi()=="1")
+            {
+
+                if(sorszam+i+30<899)
+                {
+                    i+=30;
+                    szamlalo++;
+                    cout<<"haha"<<endl;
+                }
+                else
+                    break;
+            }
+        i=30;
+        if(sorszam>30)
+            while(racsok[sorszam-i]->getKi()=="1")
+            {
+
+                if(sorszam-i-30>0)
+                {
+                    i+=30;
+                    szamlalo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4)
+        {
+            nyertes="Player 1 nyert!";
+            p1->settext(nyertes);
+        }
+
+        ki_jon="Player2 jon";
+        k->settext(ki_jon);
+    }
+    if(racsok[sorszam]->getKi()=="2")
+    {
+        int i=30;
+        int szamlalo=0;
+
+            while(racsok[sorszam+i]->getKi()=="2")
+            {
+
+                if(sorszam+i+30<899)
+                {
+                    i+=30;
+                    szamlalo++;
+                    cout<<"haha"<<endl;
+                }
+                else
+                    break;
+            }
+        i=30;
+        if(sorszam>30)
+            while(racsok[sorszam-i]->getKi()=="2")
+            {
+
+                if(sorszam-i-30>0)
+                {
+                    i+=30;
+                    szamlalo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4)
+        {
+            nyertes="Player 2 nyert!";
+            p1->settext(nyertes);
+        }
+        ki_jon="Player1 jon";
+        k->settext(ki_jon);
+    }
+
 
 }
 
-bool Amoba::start()
+bool Amoba::start(genv::event ev)
 {
 
 }

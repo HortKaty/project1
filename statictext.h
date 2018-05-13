@@ -13,6 +13,7 @@ public:
     virtual void draw() ;
     virtual void handle(genv::event ev);
     virtual std::string gettext();
+    void settext(std::string mire);
 };
 
 #endif // STATICTEXT_H_INCLUDED

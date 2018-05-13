@@ -1,4 +1,4 @@
-#include "DinamicText.h"
+#include "statictext.h"
 #include "graphics.hpp"
 using namespace genv;
 
@@ -34,4 +34,8 @@ void StaticTextBox::handle(event ev)
 std::string StaticTextBox::gettext()
 {
     return szoveg;
+}
+void StaticTextBox::settext(std::string mire)
+{
+    szoveg=mire;
 }
