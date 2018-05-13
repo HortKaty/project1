@@ -30,6 +30,7 @@ Amoba::Amoba()
 void Amoba::uj_lepes(int sorszam)
 {
     //p1 lefele
+    lepesszam++;
     if(racsok[sorszam]->getKi()=="1")
     {
         int i=30;
@@ -66,6 +67,8 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 1 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
         //p1 jobbra
         i=1;
@@ -102,6 +105,8 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 1 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
         //p1 balra le
         i=29;
@@ -138,6 +143,8 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 1 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
 
             //p1 jobbra le
@@ -175,6 +182,8 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 1 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
         ki_jon="Player2 jon";
         k->settext(ki_jon);
@@ -216,6 +225,8 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 2 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
         //p2 jobbra
         i=1;
@@ -252,6 +263,8 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 2 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
         //p1 balra le
         i=29;
@@ -288,6 +301,8 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 2 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
 
             //p1 jobbra le
@@ -325,16 +340,19 @@ void Amoba::uj_lepes(int sorszam)
         {
             nyertes="Player 2 nyert!";
             p1->settext(nyertes);
+            for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
         }
         ki_jon="Player1 jon";
         k->settext(ki_jon);
     }
-
-
-}
-
-bool Amoba::start(genv::event ev)
-{
+    if(lepesszam==400)
+    {
+        nyertes="Patthelyzet";
+        p1->settext(nyertes);
+        for(unsigned int i=0; i<racsok.size(); i++)
+            racsok[i]->focuszos();
+    }
 
 }
 

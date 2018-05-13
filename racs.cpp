@@ -48,6 +48,11 @@ void racs::handle(genv::event ev)
     }
 }
 
+bool racs::focuszos()
+{
+    _focusable=false;
+}
+
 string racs:: getKi()
 {
     return _ki;

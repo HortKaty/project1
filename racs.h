@@ -21,6 +21,7 @@ public:
     racs(int x, int y, int sx, int sy, int sr, Amoba* parent);
     void handle(genv::event ev);
     void draw();
+    bool focuszos();
     std::string gettext();
     std::string getKi();
 };

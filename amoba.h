@@ -26,7 +26,6 @@ protected:
 
 public:
     Amoba();
-    bool start(genv::event ev);
     void uj_lepes(int sorszam);
     std::string getkovi();
 

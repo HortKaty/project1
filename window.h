@@ -12,7 +12,6 @@ protected:
     vector<Widget*>widgets;
 
 public:
-    virtual bool start(genv::event ev)=0;
     void event_loop();
 };
 

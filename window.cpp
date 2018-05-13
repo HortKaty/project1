@@ -13,7 +13,7 @@ void Window::event_loop()
         {
             for (size_t i=0; i<widgets.size(); i++)
             {
-                if (widgets[i]->is_selected(ev.pos_x, ev.pos_y))
+                if (widgets[i]->is_selected(ev.pos_x, ev.pos_y) && widgets[i]->focusable())
                 {
                     if (focus!=-1)
                     {

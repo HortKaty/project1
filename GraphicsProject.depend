@@ -241,7 +241,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1523697792 c:\users\kata\documents\github\project1\widgets.hpp
+1526224232 c:\users\kata\documents\github\project1\widgets.hpp
 	"graphics.hpp"
 
 1523879347 source:c:\users\kata\documents\github\project1\dinamictext.cpp
@@ -277,18 +277,18 @@
 	"widgets.hpp"
 	"graphics.hpp"
 
-1526220271 source:c:\users\kata\documents\github\project1\amoba.cpp
+1526223334 source:c:\users\kata\documents\github\project1\amoba.cpp
 	"graphics.hpp"
 	"racs.h"
 	"amoba.h"
 	<iostream>
 
-1526215775 c:\users\kata\documents\github\project1\racs.h
+1526224667 c:\users\kata\documents\github\project1\racs.h
 	"graphics.hpp"
 	"widgets.hpp"
 	"amoba.h"
 
-1526218148 c:\users\kata\documents\github\project1\amoba.h
+1526224667 c:\users\kata\documents\github\project1\amoba.h
 	"graphics.hpp"
 	"widgets.hpp"
 	"statictext.h"
@@ -300,7 +300,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1526212836 c:\users\kata\documents\github\project1\window.h
+1526224174 c:\users\kata\documents\github\project1\window.h
 	"graphics.hpp"
 	<string>
 	<vector>
@@ -315,6 +315,6 @@
 	"statictext.h"
 	"graphics.hpp"
 
-1526206611 source:c:\users\kata\documents\github\project1\window.cpp
+1526223566 source:c:\users\kata\documents\github\project1\window.cpp
 	"window.h"
 
