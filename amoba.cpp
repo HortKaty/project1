@@ -34,6 +34,7 @@ void Amoba::uj_lepes(int sorszam)
     {
         int i=30;
         int szamlalo=0;
+        int szamolo=0;
 
             while(racsok[sorszam+i]->getKi()=="1")
             {
@@ -49,10 +50,9 @@ void Amoba::uj_lepes(int sorszam)
             }
             //p1 felfele
         i=30;
-        if(sorszam>30)
+        if(sorszam>=30)
             while(racsok[sorszam-i]->getKi()=="1")
             {
-
                 if(sorszam-i-30>0)
                 {
                     i+=30;
@@ -62,7 +62,20 @@ void Amoba::uj_lepes(int sorszam)
                 else
                     break;
             }
-        if(szamlalo>=4)
+        i=0;
+        if(sorszam>=30)
+            while(racsok[sorszam-i]->getKi()=="1")
+            {
+                if(sorszam-i-30>0)
+                {
+                    i+=30;
+                    szamolo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4 || szamolo>=4)
         {
             nyertes="Player 1 nyert!";
             p1->settext(nyertes);
@@ -87,7 +100,7 @@ void Amoba::uj_lepes(int sorszam)
             }
             //p1 balra
         i=1;
-        if(sorszam>1)
+        if(sorszam>=1)
             while(racsok[sorszam-i]->getKi()=="1")
             {
 
@@ -110,6 +123,7 @@ void Amoba::uj_lepes(int sorszam)
         //p1 balra le
         i=29;
         szamlalo=0;
+        szamolo=0;
 
             while(racsok[sorszam+i]->getKi()=="1")
             {
@@ -125,7 +139,7 @@ void Amoba::uj_lepes(int sorszam)
             }
         //p1 jobbra fel
         i=29;
-        if(sorszam>29)
+        if(sorszam>=29)
             while(racsok[sorszam-i]->getKi()=="1")
             {
 
@@ -138,7 +152,20 @@ void Amoba::uj_lepes(int sorszam)
                 else
                     break;
             }
-        if(szamlalo>=4)
+        i=0;
+        if(sorszam>=29)
+            while(racsok[sorszam-i]->getKi()=="1")
+            {
+                if(sorszam-i-29>0)
+                {
+                    i+=29;
+                    szamolo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4 || szamolo>=4)
         {
             nyertes="Player 1 nyert!";
             p1->settext(nyertes);
@@ -149,6 +176,7 @@ void Amoba::uj_lepes(int sorszam)
             //p1 jobbra le
         i=31;
         szamlalo=0;
+        szamolo=0;
 
             while(racsok[sorszam+i]->getKi()=="1")
             {
@@ -164,7 +192,7 @@ void Amoba::uj_lepes(int sorszam)
             }
         //p1 balra fel
         i=31;
-        if(sorszam>31)
+        if(sorszam>=31)
             while(racsok[sorszam-i]->getKi()=="1")
             {
 
@@ -177,7 +205,20 @@ void Amoba::uj_lepes(int sorszam)
                 else
                     break;
             }
-        if(szamlalo>=4)
+        i=0;
+        if(sorszam>=31)
+            while(racsok[sorszam-i]->getKi()=="1")
+            {
+                if(sorszam-i-31>0)
+                {
+                    i+=31;
+                    szamolo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4 || szamolo>=4)
         {
             nyertes="Player 1 nyert!";
             p1->settext(nyertes);
@@ -192,6 +233,7 @@ void Amoba::uj_lepes(int sorszam)
     {
         int i=30;
         int szamlalo=0;
+        int szamolo=0;
 
             while(racsok[sorszam+i]->getKi()=="2")
             {
@@ -207,7 +249,7 @@ void Amoba::uj_lepes(int sorszam)
             }
             //p2 felfele
         i=30;
-        if(sorszam>30)
+        if(sorszam>=30)
             while(racsok[sorszam-i]->getKi()=="2")
             {
 
@@ -220,7 +262,20 @@ void Amoba::uj_lepes(int sorszam)
                 else
                     break;
             }
-        if(szamlalo>=4)
+        i=0;
+        if(sorszam>=30)
+            while(racsok[sorszam-i]->getKi()=="2")
+            {
+                if(sorszam-i-30>0)
+                {
+                    i+=30;
+                    szamolo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4 || szamolo>=4)
         {
             nyertes="Player 2 nyert!";
             p1->settext(nyertes);
@@ -245,7 +300,7 @@ void Amoba::uj_lepes(int sorszam)
             }
             //p2 balra
         i=1;
-        if(sorszam>1)
+        if(sorszam>=1)
             while(racsok[sorszam-i]->getKi()=="2")
             {
 
@@ -268,6 +323,7 @@ void Amoba::uj_lepes(int sorszam)
         //p1 balra le
         i=29;
         szamlalo=0;
+        szamolo=0;
 
             while(racsok[sorszam+i]->getKi()=="2")
             {
@@ -283,7 +339,7 @@ void Amoba::uj_lepes(int sorszam)
             }
         //p1 jobbra fel
         i=29;
-        if(sorszam>29)
+        if(sorszam>=29)
             while(racsok[sorszam-i]->getKi()=="2")
             {
 
@@ -296,7 +352,20 @@ void Amoba::uj_lepes(int sorszam)
                 else
                     break;
             }
-        if(szamlalo>=4)
+        i=0;
+        if(sorszam>=29)
+            while(racsok[sorszam-i]->getKi()=="2")
+            {
+                if(sorszam-i-29>0)
+                {
+                    i+=29;
+                    szamolo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4 || szamolo>=4)
         {
             nyertes="Player 2 nyert!";
             p1->settext(nyertes);
@@ -307,6 +376,7 @@ void Amoba::uj_lepes(int sorszam)
             //p1 jobbra le
         i=31;
         szamlalo=0;
+        szamolo=0;
 
             while(racsok[sorszam+i]->getKi()=="2")
             {
@@ -322,7 +392,7 @@ void Amoba::uj_lepes(int sorszam)
             }
         //p1 balra fel
         i=31;
-        if(sorszam>31)
+        if(sorszam>=31)
             while(racsok[sorszam-i]->getKi()=="2")
             {
 
@@ -335,7 +405,20 @@ void Amoba::uj_lepes(int sorszam)
                 else
                     break;
             }
-        if(szamlalo>=4)
+        i=0;
+        if(sorszam>=31)
+            while(racsok[sorszam-i]->getKi()=="2")
+            {
+                if(sorszam-i-31>0)
+                {
+                    i+=31;
+                    szamolo++;
+                    cout<<"hege"<<endl;
+                }
+                else
+                    break;
+            }
+        if(szamlalo>=4 || szamolo>=4)
         {
             nyertes="Player 2 nyert!";
             p1->settext(nyertes);
